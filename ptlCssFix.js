@@ -6,9 +6,9 @@ export function fixLogo(jNode) {
     jNode.css("position", "fixed");
     jNode.css("left", "1em");
     jNode.css("top", "3.5em");
-    if (window.location.hostname == "www.bfs-wedel.de") {
+
+    if (window.location.hostname == "www.bfs-wedel.de")
         jNode.children().attr("src", "https://upload.wikimedia.org/wikipedia/commons/d/da/Private-Berufsfachschule-PTL-Wedel-Logo.svg");
-    }
 }
 
 export function fixHeader(jNode) {
