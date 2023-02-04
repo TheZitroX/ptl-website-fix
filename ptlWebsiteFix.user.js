@@ -1,14 +1,13 @@
-/**
- * @description This script fixes the PTL Wedel website.
- * @title PTL WEDEL FIX - Code Snippet for Tampermonkey
- * @version v1.1
- * @author Markellus, TheZitroX
- * @grant GM_addStyle
- * @include https://www.bfs-wedel.de/*
- * @include https://www.fh-wedel.de/*
- * @include https://raw.githubusercontent.com/TheZitroX/ptl-website-fix/feature/Better-Colors/ptlCssFix.js
- * @include https://raw.githubusercontent.com/TheZitroX/ptl-website-fix/feature/Better-Colors/baseFunctions.js
- */
+
+// @description This script fixes the PTL Wedel website.
+// @title PTL WEDEL FIX - Code Snippet for Tampermonkey
+// @version v1.1
+// @author Markellus, TheZitroX
+// @grant GM_addStyle
+// @match https://www.bfs-wedel.de/*
+// @match https://www.fh-wedel.de/*
+// @match https://raw.githubusercontent.com/TheZitroX/ptl-website-fix/feature/Better-Colors/ptlCssFix.js
+// @match https://raw.githubusercontent.com/TheZitroX/ptl-website-fix/feature/Better-Colors/baseFunctions.js
 
 // Style our newly fixed elements using CSS.
 // we use the "waitForKeyElements()" function to do this.
