@@ -8,8 +8,8 @@
  * @include https://www.fh-wedel.de/*
  */
 
-import { fixLogo, fixHeader, fixArticle, fixMenubar, fixSearch, fixLoginButton, fixMenubarColor1 } from ptlCssFix.js;
-import { waitForKeyElements } from waitForKeyElements.js;
+import { fixLogo, fixHeader, fixArticle, fixMenubar, fixSearch, fixLoginButton, fixMenubarColor1 } from "https://raw.githubusercontent.com/TheZitroX/ptl-website-fix/feature/Better-Colors/ptlCssFix.js";
+import { waitForKeyElements } from "https://raw.githubusercontent.com/TheZitroX/ptl-website-fix/feature/Better-Colors/baseFunctions.js";
 
 /**
  * waitForKeyElements():  A utility function, for Greasemonkey scripts, that detects and handles AJAXed content.
