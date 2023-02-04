@@ -5,7 +5,7 @@
  * @param {*} bWaitOnce Optional: If false, will continue to scan for new elements even after the first match is found.
  * @param {*} iframeSelector Optional: If set, identifies the iframe to search.
  */
-export function waitForKeyElements(
+function waitForKeyElements(
     selectorTxt, actionFunction, bWaitOnce, iframeSelector
 ) {
     var targetNodes, btargetsFound;

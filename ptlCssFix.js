@@ -1,4 +1,4 @@
-export function fixLogo(jNode) {
+function fixLogo(jNode) {
     jNode.css("height", "3em");
     jNode.css("min-height", "0px");
     jNode.css("margin", "0 auto");
@@ -11,31 +11,31 @@ export function fixLogo(jNode) {
         jNode.children().attr("src", "https://upload.wikimedia.org/wikipedia/commons/d/da/Private-Berufsfachschule-PTL-Wedel-Logo.svg");
 }
 
-export function fixHeader(jNode) {
+function fixHeader(jNode) {
     jNode.css("min-height", "0px");
     jNode.css("height", "0em");
 }
 
-export function fixArticle(jNode) {
+function fixArticle(jNode) {
     jNode.css("max-width", "1200px");
     jNode.css("width", "100%");
     jNode.css("margin", "0 auto");
 }
 
-export function fixMenubar(jNode) {
+function fixMenubar(jNode) {
     jNode.children().css("padding", "5px 32px 5px");
 }
 
-export function fixSearch(jNode) {
+function fixSearch(jNode) {
     jNode.css("padding", "5px 32px 5px");
     jNode.css("background", "transparent");
 }
 
-export function fixLoginButton(jNode) {
+function fixLoginButton(jNode) {
     jNode.css("padding", "5px 32px 5px");
     jNode.css("background", "transparent");
 }
 
-export function fixMenubarColor1(jNode) {
+function fixMenubarColor1(jNode) {
     jNode.css("background", "#1C2764");
 }
