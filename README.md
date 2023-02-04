@@ -7,7 +7,7 @@ For Chromium based browsers:
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo/related
 
 Then click on this link and the Addon should automaticly detect the code, click on install code.
-chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=1ba6a737-e801-4605-a65e-003ed49bb759
+https://github.com/TheZitroX/ptl-website-fix/raw/main/ptlWebsiteFix.user.js
 If it does not say "install" just copy and paste it to your extensions codes.
 
 Now you should be happy with the better website design for Ptl/fh sites :D
